@@ -1,0 +1,21 @@
+{
+  "name": "selfcessful",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ckuh <kuh_chris@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ckuh/selfcessful",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
