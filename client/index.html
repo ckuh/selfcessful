@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="selfcessful">
   <head>
     <meta charset="utf-8">
     <title>Selfcessful</title>
   </head>
   <body>
     <h1>Hello World</h1>
+
+    <ui-view></ui-view>
+
+    <!-- lib -->
+    <script src="./lib/angular/angular.min.js" charset="utf-8"></script>
+    <script src="./lib/angular-ui-router/release/angular-ui-router.min.js" charset="utf-8"></script>
+
+    <!-- app -->
+    <script src="./app/app.modules.js" charset="utf-8"></script>
+    <script src="./app/app.dependencies.js" charset="utf-8"></script>
+    <script src="./app/app.config.js" charset="utf-8"></script>
+
+    <!-- home -->
+    <script src="./pages/selfcessful.home/home.controller.js" charset="utf-8"></script>
+    <script src="./pages/selfcessful.home/home.factory.js" charset="utf-8"></script>
   </body>
 </html>
