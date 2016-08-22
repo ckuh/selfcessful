@@ -1,0 +1,39 @@
+.apparel {
+  background-color: white;
+  height: 100%;
+}
+
+.selfcessfulApparel {
+  text-align: center;
+}
+
+.itemContainer {
+  list-style-type: none;
+  width: 100%;
+}
+
+.itemContainer li {
+  padding: 15px;
+  z-index: 1;
+  width: 35%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.itemContainer p {
+  padding: 0 10px 0 10px;
+}
+
+.itemContainer img {
+  border: 1px solid #eee;
+}
+
+.itemContainer img:hover {
+  background-color: #E5D352;
+  opacity: 0.5;
+}
+
+.itemContent {
+  padding-left: 15px;
+  padding-right: 15px;
+}

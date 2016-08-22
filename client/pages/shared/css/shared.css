@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-color: #191e25;
+  color: #482C3D !important;
+  background-color: #537DA7;
   height: 100%;
   padding: 20px 0 20px 0;
 }

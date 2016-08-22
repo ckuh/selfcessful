@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./pages/shared/css/shared.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="./pages/selfcessful.home/css/home.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="./pages/selfcessful.home/css/carousel.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./pages/selfcessful.apparel/css/apparel.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <div class="container home">
       <div class="header clearfix">
-        <h3 class="text-muted">Selfcessful</h3>
+        <h1>Selfcessful</h1>
         <nav>
           <ul class="nav nav-pills pull-left">
             <li role="presentation"><a ui-sref="home">Home</a></li>
@@ -23,6 +24,10 @@
     </div>
 
     <ui-view></ui-view>
+
+    <footer class="container footer">
+      <p>&copy; Selfcessful</p>
+    </footer>
 
     <!-- lib -->
     <script src="./lib/angular/angular.min.js" charset="utf-8"></script>
@@ -44,6 +49,6 @@
     <!-- apparel -->
     <script src="./pages/selfcessful.apparel/apparel.controller.js" charset="utf-8"></script>
     <script src="./pages/selfcessful.apparel/apparel.factory.js" charset="utf-8"></script>
-    <!-- <script src="./pages/selfcessful.apparel/apparel.controller.js" charset="utf-8"></script> -->
+    <script src="./pages/selfcessful.apparel/components/items.component.js" charset="utf-8"></script>
   </body>
 </html>
