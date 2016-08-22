@@ -4,6 +4,7 @@
   .module('selfcessful', [
     'selfcessful.dependencies',
     'selfcessful.config',
-    'selfcessful.home'
+    'selfcessful.home',
+    'selfcessful.apparel'
   ])
 })();
