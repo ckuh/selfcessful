@@ -2,12 +2,22 @@
   background-color: white;
 }
 
-.home div img{
+.home div {
   position: relative;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  height: inherit;
 }
 
 .home nav ul li a{
   color: #482C3D;
+}
+
+.home div h1 {
+  text-align: center;
 }
 
 .selfcessfulDeff {

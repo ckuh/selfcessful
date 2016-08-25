@@ -1,0 +1,12 @@
+.contact {
+  background-color: white;
+  padding: 35px;
+}
+
+.contactForm div h3 {
+  text-align: center;
+}
+
+.control-label {
+  text-align: left !important;
+}

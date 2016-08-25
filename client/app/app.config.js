@@ -17,6 +17,12 @@
           templateUrl: '../pages/selfcessful.apparel/templates/apparel.html',
           controller: 'ApparelController as vm'
         })
+        .state('contact', {
+          url: '/contact',
+          auth: false,
+          templateUrl: '../pages/selfcessful.contact/templates/contact.html',
+          controller: 'ContactController as vm'
+        })
       $urlRouterProvider
         .otherwise('/home');
     }

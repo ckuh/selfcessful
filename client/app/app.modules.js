@@ -5,6 +5,7 @@
     'selfcessful.dependencies',
     'selfcessful.config',
     'selfcessful.home',
-    'selfcessful.apparel'
+    'selfcessful.apparel',
+    'selfcessful.contact'
   ])
 })();

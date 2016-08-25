@@ -23,11 +23,11 @@
       vm.items = [{
         id: 'Selfcessful-Shirt',
         image: '../pictures/shirt.png',
-        text: ['']
+        text: '24.99'
       },{
         id: 'Selfcessful-Tank',
         image: '../pictures/tank.png',
-        text: ['']
+        text: '19.99'
       }]
     }
 })();

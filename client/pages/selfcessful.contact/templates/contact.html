@@ -1,0 +1,42 @@
+<div class="container contact">
+  <div class="panel panel-default contactForm">
+    <div class="panel-heading">
+      <h3 class="panel-title">Contact Us</h3>
+    </div>
+
+    <div class="panel-body">
+      <form class="form-horizontal" ng-submit="vm.submit()">
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input ng-model="vm.input.name" type="text" class="form-control" placeholder="Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input ng-model="vm.input.email" type="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Subject</label>
+          <div class="col-sm-10">
+            <input ng-model="vm.input.label" type="text" class="form-control" placeholder="Subject">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Message</label>
+          <div class="col-sm-10">
+            <textarea ng-model="vm.input.message" class="form-control" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-default pull-right">Send</button>
+          </div>
+        </div>
+      </form>
+       <div uib-alert class="alert-success" ng-show="vm.messageSent">Message Sent</div>
+    </div>
+  </div>
+</div>

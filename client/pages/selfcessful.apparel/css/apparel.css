@@ -36,3 +36,13 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.itemContent button {
+  margin: 0 auto;
+  display: block;
+}
+
+.price {
+  text-align: center;
+  font-weight: bold;
+}
