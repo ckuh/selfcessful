@@ -1,12 +1,15 @@
 <ul class="row itemContainer">
-  <li class="col-sm-6" ng-repeat="item in vm.items">
+  <li class="col-xs-4" ng-repeat="item in vm.items">
     <img class="img-responsive" ng-src="{{item.image}}"/>
     <div class="itemContent">
       <h4>{{item.id}}</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>50% polyester</p>
+      <p>25% cotton</p>
+      <p>25% rayonne</p>
       <p class="price">
         ${{item.text}}
       </p>
       <button type="button" class="btn btn-primary" ng-model="singleModel" ui-sref="contact" uib-btn-checkbox>Buy Now</button>
     </div>
+  </li>
 </ul>

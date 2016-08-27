@@ -28,6 +28,10 @@
         id: 'Selfcessful-Tank',
         image: '../pictures/tank.png',
         text: '19.99'
+      },{
+        id: 'Selfcessful-Long',
+        image: '../pictures/long.png',
+        text: '29.99'
       }]
     }
 })();

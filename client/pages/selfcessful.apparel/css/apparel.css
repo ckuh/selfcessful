@@ -13,8 +13,7 @@
 
 .itemContainer li {
   padding: 15px;
-  z-index: 1;
-  width: 35%;
+  width: 33%;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -33,6 +32,7 @@
 }
 
 .itemContent {
+  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 }
