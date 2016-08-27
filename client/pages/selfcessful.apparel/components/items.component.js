@@ -29,7 +29,7 @@
         image: '../pictures/tank.png',
         text: '19.99'
       },{
-        id: 'Selfcessful-Long',
+        id: 'Selfcess-Long',
         image: '../pictures/long.png',
         text: '29.99'
       }]
